@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>gazpromspb.rv</title>
+
+    <style>
+        /* Общие стили */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e1e1e6;
+            color: #060607;
+        }
+
+
+
+
+        /* Основной контент */
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #070807;
+        }
+
+        p {
+            color: #0b0c0b;
+        }
+
+        p {
+            font-size: 1.2em;
+        }
+
+        /* Кнопка */
+        button {
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        /* Футер */
+        footer {
+            padding: 1px 500px;
+            /* Уменьшение отступов внутри футера */
+            background-color: #0a53b3;
+            /* Фоновый цвет для наглядности */
+            text-align: center;
+            /* Выравнивание текста по центру */
+            position: fixed;
+            width: 100% padding: 1px 0;
+        }
+
+
+
+        .container {
+            display: flex;
+            gap: 10px;
+        }
+
+        .cell {
+            background-color: #4caf50;
+            color: white;
+            padding: 0px;
+            text-align: center;
+            flex: 1;
+            border-radius: 50px;
+            text-decoration: none;
+            /* Убираем подчёркивание у ссылки */
+            display: block;
+            /* Делаем ссылку блочным элементом */
+        }
+
+        .cell:hover {
+            background-color: #531e60;
+            /* Эффект при наведении */
+        }
+
+        a.button {
+            display: inline-block;
+            background-color: #a75a9699;
+            color: white;
+            padding: 20px 30px;
+            text-decoration: none;
+            /* ДЛЯ ОТКРЫТИЯ В НОВОЙ ВКЛАДКЕ */
+            border-radius: 10px;
+            font-size: 1em;
+        }
+
+        a.button:hover {
+            background-color: #9aa89b;
+        }
+
+        body {
+            background-image: url('заставка.jpg');
+            background-size: 1620px 995px;
+            /* Ширина и высота */
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .image {
+            margin-left: auto;
+            /* Устанавливаем автоматический отступ слева */
+            margin-right: 0;
+            /* Убираем правый отступ */
+            display: block;
+            /* Делаем изображение блочным элементом */
+            width: 130px;
+            /* Задаем ширину изображения */
+        }
+
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            /* Убираем отступы */
+            overflow: hidden;
+            /* Убираем скролл у body */
+        }
+
+        .scroll-container {
+            height: 100vh;
+            /* Задаем высоту равной высоте окна просмотра */
+            overflow-y: auto;
+            /* Добавляем вертикальную прокрутку, если контент превышает высоту */
+            border: 1px solid #ccc;
+            /* Для наглядности */
+            padding: 20px;
+            /* Отступы внутри контейнера */
+        }
+
+        .content {
+            height: 1500px;
+            /* Делаем контент большим, чтобы вызвать прокрутку */
+        }
+
+        margin: 0;
+
+            {
+            font-family: Arial, sans-serif;
+
+        }
+
+
+        .text-container {
+            background-color: rgb(237, 237, 232);
+            /* Фон */
+            padding: 5px;
+            /* Отступы */
+            text-align: left;
+            /* В данном случае это необязательно, так как блоки по умолчанию выравниваются по левому краю. */
+        }
+    </style>
+</head>
+<div class="row"></div>
+<!-- сами ячейки -->
+
+<body>
+
+
+    <div class="scroll-container">
+        <div class="content">
+
+            <div class="container">
+                <a href="https://spb.hh.ru/employer/1133703?hhtmFrom=vacancy" class="button"
+                    target="_blank">Вакансии</a>
+                <a href="https://www.gazprom.ru/about/management/board/" class="button" target="_blank">Правление</a>
+                <a href="https://www.gazprom.ru/contacts/" class="button" target="_blank">Контактная информация</a>
+                <a href="https://www.gazprom.ru/about/" class="button" target="_blank">О Газпроме</a>
+                <a href="https://www.gazprom.ru/press/" class="button" target="_blank">Пресс-центр</a>
+                <a href="https://www.gazprom.ru/sustainability/" class="button" target="_blank">Устойчевое развитие</a>
+                <a href="https://www.gazprom.ru/contacts/warning/" class="button" target="_blank">Противодействие
+                    мошейничеству</a>
+            </div>
+
+            <img src="знак.png" alt="Маленькая фотография" class="image">
+
+            <!-- Шапка -->
+            <header>
+                <h2>
+                    <p style="text-align: center;">Добро пожаловать на сайт!</p>
+                </h2>
+            </header>
+
+            <body background="заставка.jpg">
+            </body>
+
+            <!-- Основной контент -->
+            <main>
+                <section>
+
+                    <div class="text-container">
+                        <span>Целью : строительства филиала 328 ПАО «Газпром» являлось обеспечение нужд<br> объектов
+                            газотранспортной системы и газификации населенных пунктов Ленинградской области.<br> По
+                            окончанию строительства филиал 328 должен включать более четырех десятков объектов<br>
+                            различного назначения, в частности: складской корпус, открытые и крытые площадки,
+                            станция<br> техобслуживания автотранспорта, подземный склад готовой продукции двойного
+                            назначения<br> и другие здания и сооружения.
+                        </span>
+                    </div>
+
+
+
+                </section>
+
+                <section>
+
+
+                </section>
+
+
+            </main>
+
+            <!-- Футер -->
+
+</body>
+
+</html>
